@@ -1,0 +1,102 @@
+# Ejercicio 1
+print("hola mundo!")
+ 
+ # Ejercicio 2
+
+nombre = input("ingrese su nombre: ")
+print (f"Hola, {nombre}! ")
+
+# Ejercicio 3
+ 
+nombre = input("ingrese su nombre:")
+apellido = input("Ingrese su apellido:")
+edad = input ("ingrese su edad:")
+pais = input("ingrese su pais de residencia:")
+
+print(f"Hola soy {nombre} {apellido}, tengo {edad} y vivo en {pais} mucho gusto!")
+
+#Ejercicio 4
+import math
+
+radio = float(input("ingrese el radio del circulo"))
+
+area = math.pi * (radio ** 2)
+perimetro = 2 * math.pi * radio
+
+print(f"El area del circulo es: {area} y su perimetro es {perimetro}")
+
+# Ejercicio 5
+Segundos = float(input("ingrese una cantidad de segundos:"))
+
+horas = round (Segundos / 3600, 2)
+
+print(f"{Segundos} segundos es igual a {horas} horas")
+
+# Ejercicio 6
+num = int(input("Ingrese el numero a multiplicar:"))
+
+numpor0 = num * 0
+numpor1 = num * 1
+numpor2 = num * 2
+numpor3 = num * 3
+numpor4 = num * 4
+numpor5 = num * 5
+numpor6 = num * 6
+numpor7 = num * 7
+numpor8 = num * 8
+numpor9 = num * 9
+numpor10 = num * 10
+
+print(f""" {num} por 0 = {numpor0}
+{num} por 1 = {numpor1}
+{num} por 2 = {numpor2}
+{num} por 3 = {numpor3}
+{num} por 4 = {numpor4}
+{num} por 5 = {numpor5}
+{num} por 6 = {numpor6}
+{num} por 7 = {numpor7}
+{num} por 8 = {numpor8}
+{num} por 9 = {numpor9}
+{num} por 10 = {numpor10}
+""")
+# Ejercicio 7
+num1 = int(input("Ingrese el primer numero entero:"))
+num2 = int(input("Ingrese el segundo numero entero:"))
+
+S = num1 + num2
+R = num1 - num2
+D = num1 / num2
+M = num1 * num2
+
+print(f"""
+{num1} sumado {num2} es: {S}
+{num1} restado {num2} es: {R}
+{num1} divido {num2} es: {D}
+{num1} multiplicado {num2} es: {M}
+""")
+
+# Ejercicio 8
+import math
+altura = float(input("ingrese su altura por favor: "))
+peso = float(input("ingrese su peso por favor: "))
+
+imc = peso / altura ** 2
+
+print(f"su indice de masa corporal es: {imc}")
+
+#Ejercicio 9
+import math
+tempC = float(input("Ingrese los grados celsius a convertir en fahrenheit: "))
+tempF = 9 / 5 * tempC + 32
+
+print(f"{tempC} grados celsius equivalen a {tempF} grados fahrenheit")
+
+# Ejercicio 10
+import math
+num1 = float(input("por favor ingrese el primer numero:"))
+num2 = float(input("por favor ingrese el segundo numero:"))
+num3 = float(input("por favor ingrese el tercer numero:"))
+
+promedio = (num1 + num2 + num3) / 3
+
+print(f" el promedio de los 3 numeros ingresados es: {promedio}")
